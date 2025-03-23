@@ -224,7 +224,7 @@ int main(int argc, char *argv[])
 	ios->set_flow(ios, current_flow);
 
 	if (!listenonly) {
-		printf("Escape character: Ctrl-\\\n");
+		printf("Escape character: Ctrl-d\n");
 		printf("Type the escape character to get to the prompt.\n");
 
 		/* Now deal with the local terminal side */
